@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pocket.AboutController">
+   <children>
+      <TextArea layoutX="30.0" layoutY="40.0" prefHeight="326.0" prefWidth="725.0" text="                                           WELCOME TO POCKET TANK&#10;&#10;Pocket Tank is a game of two players. The two players can play in LAN too. It is a &#10;game ,based on the principle of projectile. Each player has a tank. The tanks can throw &#10;missile. If one tank hits the other, the owner of the tank will get 10 points. Tanks stay&#10;both sides of a mountain. One has to set angle and speed properly to hit the other's.&#10;if missile hits the mountain, the mountain gets damaged. Up key increases and Down &#10;key decreases the speed. Left key increases and Right key decreases angle. &#10;&#10;Enjoy the game.&#10;&#10;&#10;&#10;">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="365.0" layoutY="392.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="122.0" text="BACK">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
